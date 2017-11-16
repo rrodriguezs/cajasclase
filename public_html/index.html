@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/estilos.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+
+    <body>
+        <!-- Contenedor -->
+        <div id="contenedor">
+
+            <!-- Cabecera -->
+            <div id="cabecera">
+                <div id="logo">
+                    <h1><span>Computadora</span></h1>
+                </div>
+
+                <div id="buscador">
+                    <form action="#" method="post">
+                        Buscar &nbsp; <input name="busqueda" type="text" />
+                    </form>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+            <!-- /Cabecera -->
+
+            <!-- Menu principal -->
+            <div id="menu">
+                <ul id="menu_principal">
+                    <li><a href="#">Tienda</a></li>
+                    <li><a href="#">Tablets</a></li>
+                    <li><a href="#">Smartphones</a></li>
+                    
+                </ul>
+                <div class="clear"></div>
+            </div>
+
+
+            <!-- Lateral -->
+            <div id="lateral">
+
+                <!-- Noticias -->
+                <div id="noticias">
+                    <h3><a href="#">Noticias</a></h3>
+                    <p><span class="fecha">16/11/2017</span> <a href="#">Viernes Negro. Grandes ofertas, ven y aprovecha.</a></p>
+                   
+
+                    <h3><a href="#">Enlaces relacionados</a></h3>
+                    <ul>
+                        <li><a href="http://www.prodacom.com/">Tienda</a></li>
+                        <li><a href="https://www.amazon.es/tablets/b?ie=UTF8&node=938010031">Tablets</a></li>
+                        <li><a href="https://www.google.com.do/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwizxsCLnsTXAhVD5CYKHav4ChcQFgg7MAI&url=http%3A%2F%2Fwww.samsung.com%2Flatin%2Fsmartphones%2F&usg=AOvVaw3ey8q5-5uE-Xxz5mDcXfhZ">Smartphones</a></li>
+                    </ul>
+                </div>
+                <!-- /Noticias -->
+
+                <!-- Publicidad -->
+                <div id="publicidad">
+                    <h3><a href="#">Publicidad</a></h3>
+                    <p>Etiam fermentum, nisl tincidunt blandit interdum, massa velit posuere dolor, sed euismod sem odio at mi.</p>
+                    <p>Duis porta placerat arcu. Nullam felis pede, commodo vel, suscipit a, molestie vel, felis. Maecenas mattis est vel est.</p>
+                    <p><a href="#">Seguir leyendo...</a></p>
+                </div>
+                <!-- /Publicidad -->
+
+            </div>
+            <!-- /Lateral -->
+
+            <div id="contenido">
+
+                <!-- Principal -->
+                <div id="principal">
+
+                    <div class="articulo">
+                        <h2>Introducción</h2>
+
+                        <img src="data:image/jpeg;base64,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" alt="Imagen gen�rica" />
+
+                        <p>Desde el punto de vista funcional es una máquina que posee, al menos, una unidad central de procesamiento, una memoria principal y algún periférico o dispositivo de entrada y otro de salida. Los dispositivos de entrada permiten el ingreso de datos, la CPU se encarga de su procesamiento (operaciones aritmético-lógicas) y los dispositivos de salida los comunican a otros medios. Es así, que la computadora recibe datos, los procesa y emite la información resultante, la que luego puede ser interpretada, almacenada, transmitida a otra máquina o dispositivo o sencillamente impresa; todo ello a criterio de un operador o usuario y bajo el control de un programa.</p>
+                        <p><a href="#">Seguir leyendo...</a></p>
+                    </div>
+
+                    <div class="articulo">
+                        <h2>Etimología de la palabra ordenador</h2>
+
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzKWvCNPJjFQYot6nOPq2bz9JfbY1HMSpRo_oJH87g9eeY7aRLOQ" alt="Imagen gen�rica" />
+
+                        <p>La palabra española «ordenador» proviene del término francés ordinateur, en referencia a Dios que pone orden en el mundo (Dieu qui met de l'ordre dans le monde).9​ En parte por cuestiones de marketing, puesto que la descripción realizada por IBM para su introducción en Francia en 1954 situaba las capacidades de actuación de la máquina cerca de la omnipotencia, idea equivocada que perdura hoy en día al considerar que la máquina universal de Turing es capaz de computar absolutamente todo.10​ En 1984, académicos franceses reconocieron, en el debate Les jeunes, la technique et nous, que el uso de este sustantivo es incorrecto, porque la función de un computador es procesar datos, no dar órdenes.</p>
+                        <p><a href="#">Seguir leyendo...</a></p>
+                    </div>
+
+                </div>
+                <!-- /Principal -->
+
+                <!-- Secundario -->
+                <div id="secundario">
+                    <h2>Phasellus blandit</h2>
+                    <p>Praesent sodales imperdiet augue. Mauris lorem felis, semper eu, tincidunt eu, sollicitudin eget, sem. Nulla facilisi. Morbi ut enim ut enim ultricies dapibus.</p>
+                    <p><a href="#">Seguir leyendo...</a></p>
+
+                    <h2>Nullam vel turpis</h2>
+                    <p>Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.</p>
+                    <p><a href="#">Seguir leyendo...</a></p>
+                </div>
+                <!-- /Secundario -->
+
+            </div>
+            <!-- /Contenido -->
+
+            <div class="clear"></div>
+
+            <!-- Pie -->
+            <div id="pie">
+                <span class="enlaces">
+                    <a href="#">Nulla</a> |
+                    <a href="#">Pharetra</a> |
+                    <a href="#">Luctus</a> |
+                    <a href="#">Ipsum</a> |
+                    <a href="#">Proin</a> |
+                    <a href="#">Placerat</a>
+                </span>
+
+                <span class="copyright">
+                    &copy; Copyright Lorem ipsum
+                </span>
+                <div class="clear"></div>
+            </div>
+            <!-- /Pie -->
+
+        </div>
+        <!-- /Contenedor -->
+
+    </body>
+
+
+</html>
